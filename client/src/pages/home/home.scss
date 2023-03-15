@@ -1,0 +1,37 @@
+.home {
+  display: flex;
+  justify-content: center;
+
+  .wrapper {
+    width: 80%;
+
+    .items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 7px;
+
+      .item {
+        width: 30%;
+        border: 1px solid rgba(128, 128, 128, 0.3);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        button {
+          border: none;
+          background-color: rgb(95, 95, 245);
+          color: white;
+          padding: 10px;
+          border-radius: 10px;
+        }
+        h1 {
+          padding: 0;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
